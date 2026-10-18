@@ -1,0 +1,111 @@
+{
+ "run_utc": "2026-09-26T03:48:31+00:00",
+ "gpu": "Tesla T4",
+ "python": "3.13.15",
+ "torch": "2.11.0+cu128",
+ "transformers": "4.57.3",
+ "gradio": "5.50.0",
+ "hashes": {
+  "base_checkpoint": {
+   "file": "Yunncheng/OmniAID@279cae7398ac6636f46fc4668f755f11210b36bf:ckpt/checkpoint_omniaid_v2.pth",
+   "sha256": "919338928cab88cef1e6e4b85777749c74bdff6a1796fcd7e43a91422327f906",
+   "expected": "919338928cab88cef1e6e4b85777749c74bdff6a1796fcd7e43a91422327f906",
+   "match": true
+  },
+  "adapted_parameters": {
+   "file": "/content/drive/MyDrive/HIT401_Wildlife_Deepfake/metadata/model_adaptation/adapted_checkpoints/adapted_epoch_1.pt",
+   "sha256": "733ab455a3d1f677451c9368846eb44e36236d492571d7960d075da641a3cd66",
+   "expected": "733ab455a3d1f677451c9368846eb44e36236d492571d7960d075da641a3cd66",
+   "match": true
+  }
+ },
+ "models": {
+  "original_threshold": 0.35996127128601074,
+  "adapted_threshold": 0.5848991870880127,
+  "thresholds_match_frozen": true,
+  "original_eval_mode": true,
+  "adapted_eval_mode": true,
+  "total_parameters": 507797575,
+  "tensors_differing": 1734,
+  "adapted_state_tensors": 1734,
+  "differing_tensors_all_in_adapted_state": true,
+  "omniaid_commit": "40749406fbcd8893c11a160edf4a72a2d4dc7056"
+ },
+ "self_check": {
+  "images": 4,
+  "max_abs_diff": 3.993511199951172e-06,
+  "passed": 1.0
+ },
+ "sample_images": [
+  {
+   "file": "cct_opossum_5976a4fe-23d2-11e8-a6a3-ec086b02610b.jpg",
+   "set": "Dataset v1 validation, Caltech",
+   "true_label": "real",
+   "original_score": 0.169544,
+   "original_decision": "REAL",
+   "saved_original_score": 0.169544,
+   "adapted_score": 0.052635,
+   "adapted_decision": "REAL",
+   "saved_adapted_score": 0.052635,
+   "max_abs_diff_vs_saved": 2.3841857903911245e-07
+  },
+  {
+   "file": "inat_opossum_486213_614582.jpg",
+   "set": "Dataset v1 validation, iNaturalist",
+   "true_label": "real",
+   "original_score": 0.061429,
+   "original_decision": "REAL",
+   "saved_original_score": 0.061428,
+   "adapted_score": 0.051243,
+   "adapted_decision": "REAL",
+   "saved_adapted_score": 0.051243,
+   "max_abs_diff_vs_saved": 9.387731552540357e-07
+  },
+  {
+   "file": "sdxl_opossum_community_500004.jpg",
+   "set": "Dataset v1 validation, SDXL community",
+   "true_label": "fake",
+   "original_score": 0.846297,
+   "original_decision": "AI-GENERATED",
+   "saved_original_score": 0.846297,
+   "adapted_score": 0.979384,
+   "adapted_decision": "AI-GENERATED",
+   "saved_adapted_score": 0.979384,
+   "max_abs_diff_vs_saved": 5.960464477539063e-08
+  },
+  {
+   "file": "sdxl_opossum_camera_night_ir_504002.jpg",
+   "set": "Dataset v1 validation, SDXL camera_night_ir",
+   "true_label": "fake",
+   "original_score": 0.621137,
+   "original_decision": "AI-GENERATED",
+   "saved_original_score": 0.621137,
+   "adapted_score": 0.919846,
+   "adapted_decision": "AI-GENERATED",
+   "saved_adapted_score": 0.919845,
+   "max_abs_diff_vs_saved": 1.0132789611816406e-06
+  },
+  {
+   "file": "flux_bobcat_community_640016.jpg",
+   "set": "Exp 4 frozen FLUX image",
+   "true_label": "fake",
+   "original_score": 0.638472,
+   "original_decision": "AI-GENERATED",
+   "saved_original_score": 0.638472,
+   "adapted_score": 0.896347,
+   "adapted_decision": "AI-GENERATED",
+   "saved_adapted_score": 0.896345,
+   "max_abs_diff_vs_saved": 1.5497207641601562e-06
+  }
+ ],
+ "sample_images_max_abs_diff": 1.5497207641601562e-06,
+ "wording": {
+  "table_headers": [
+   "Detector",
+   "Model score",
+   "Frozen threshold",
+   "Decision"
+  ],
+  "confidence_occurrences_in_app": []
+ }
+}

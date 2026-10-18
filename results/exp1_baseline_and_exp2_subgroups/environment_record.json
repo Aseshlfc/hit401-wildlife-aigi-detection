@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-22 16:14",
+  "python_version": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "torch_version": "2.11.0+cu128",
+  "torchvision_version": "0.26.0+cu128",
+  "transformers_version": "4.57.3",
+  "cuda_available": true,
+  "cuda_version": "12.8",
+  "gpu_name": "Tesla T4",
+  "model_repo": "https://github.com/yunncheng/OmniAID",
+  "model_checkpoint_hf_repo": "Yunncheng/OmniAID",
+  "model_checkpoint_file": "ckpt/checkpoint_omniaid_v2.pth",
+  "model_backbone": "CLIP ViT-L/14 @ 336px (openai/clip-vit-large-patch14-336)",
+  "model_architecture": "OmniAID v2: decoupled Mixture-of-Experts (6 experts, top-2 routing) over frozen CLIP backbone",
+  "input_size": "336x336",
+  "preprocessing": "resize(336,336), ToTensor, Normalize(CLIP mean/std)",
+  "threshold_method": "Youden's J statistic (max TPR-FPR) computed on VALIDATION set only, never test",
+  "threshold_value": 0.35996127128601074,
+  "decision_rule": "score >= threshold -> predicted fake; score < threshold -> predicted real",
+  "score_orientation": "higher score = more fake-like (empirically verified on validation: real mean=0.0960, fake mean=0.7373)",
+  "batch_size": "1 (sequential, per official clean_test.py reference implementation)",
+  "eval_set": "frozen Dataset v1 TEST split (n=664); model NOT trained/fine-tuned on this project's data (off-the-shelf baseline)"
+}

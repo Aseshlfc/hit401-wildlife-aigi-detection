@@ -1,0 +1,50 @@
+2026-09-25 15:17:57.957049: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+🚨 Something went wrong trying to find the model name in the path: /usr/local/lib/python3.13/dist-packages/transformers/models/dinov3_vit/modular_dinov3_vit.py
+🚨 Config not found for model. You can manually add it to HARDCODED_CONFIG_FOR_MODELS in utils/auto_docstring.py
+🚨 Something went wrong trying to find the model name in the path: /usr/local/lib/python3.13/dist-packages/transformers/models/dinov3_vit/modular_dinov3_vit.py
+🚨 Something went wrong trying to find the model name in the path: /usr/local/lib/python3.13/dist-packages/transformers/models/dinov3_vit/modular_dinov3_vit.py
+🚨 Config not found for model. You can manually add it to HARDCODED_CONFIG_FOR_MODELS in utils/auto_docstring.py
+🚨 Something went wrong trying to find the model name in the path: /usr/local/lib/python3.13/dist-packages/transformers/models/dinov3_vit/modular_dinov3_vit.py
+🚨 Config not found for model. You can manually add it to HARDCODED_CONFIG_FOR_MODELS in utils/auto_docstring.py
+🚨 Something went wrong trying to find the model name in the path: /usr/local/lib/python3.13/dist-packages/transformers/models/dinov3_vit/modular_dinov3_vit.py
+Not using distributed mode
+Initializing OmniAID model with 6 experts and 1 ranks per expert.
+Initializing in HYBRID MoE architectural mode.
+Rank allocation: total_rank=1024, r_main=1023, num_experts=6, rank_per_expert=1
+Total Parameters at model initialization:     507.80 M
+Total number of trainable params at model initialization: 1.45 M
+Recursively scanning for data in: /content/exp4_val_view
+ - Real folder: '0_real', Fake folder: '1_fake'
+Found 693 images:
+ - Real images: 363
+ - Fake images: 330
+ - Real/Fake ratio: 52.38%/47.62%
+[original] validation reproduction: n=693 max|diff|=1.11e-16 flips=0
+Recursively scanning for data in: /content/exp4_eval_view
+ - Real folder: '0_real', Fake folder: '1_fake'
+Found 326 images:
+ - Real images: 0
+ - Fake images: 326
+ - Real/Fake ratio: 0.00%/100.00%
+[original] scored 326 in 339s (incl. build + validation)
+Initializing OmniAID model with 6 experts and 1 ranks per expert.
+Initializing in HYBRID MoE architectural mode.
+Rank allocation: total_rank=1024, r_main=1023, num_experts=6, rank_per_expert=1
+Total Parameters at model initialization:     507.80 M
+Total number of trainable params at model initialization: 1.45 M
+Recursively scanning for data in: /content/exp4_val_view
+ - Real folder: '0_real', Fake folder: '1_fake'
+Found 693 images:
+ - Real images: 363
+ - Fake images: 330
+ - Real/Fake ratio: 52.38%/47.62%
+[adapted] validation reproduction: n=693 max|diff|=1.11e-16 flips=0
+Recursively scanning for data in: /content/exp4_eval_view
+ - Real folder: '0_real', Fake folder: '1_fake'
+Found 326 images:
+ - Real images: 0
+ - Fake images: 326
+ - Real/Fake ratio: 0.00%/100.00%
+[adapted] scored 326 in 331s (incl. build + validation)
+EXP4 scored once. Lock written: /content/drive/MyDrive/HIT401_Wildlife_Deepfake/exp4_heldout_generator/evaluation/EXP4_EVALUATED.json

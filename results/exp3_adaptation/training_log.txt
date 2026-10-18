@@ -1,0 +1,7 @@
+[2026-09-24T09:02:07] Start: Experiment 3: parameter-efficient fine-tuning of OmniAID v2's low-rank experts | effective batch 32 | lr 2.50e-05 | epochs 5
+[2026-09-24T09:40:32] Epoch 1: train_loss 0.0303 | VAL bal_acc 0.9986 fake_recall 1.0000 real_recall 0.9972 AUC 1.0000 | 35.0 + 3.4 min
+[2026-09-24T10:18:39] Epoch 2: train_loss 0.0274 | VAL bal_acc 1.0000 fake_recall 1.0000 real_recall 1.0000 AUC 1.0000 | 34.7 + 3.4 min
+[2026-09-24T10:56:47] Epoch 3: train_loss 0.0269 | VAL bal_acc 1.0000 fake_recall 1.0000 real_recall 1.0000 AUC 1.0000 | 34.7 + 3.4 min
+[2026-09-24T11:35:03] Epoch 4: train_loss 0.0268 | VAL bal_acc 1.0000 fake_recall 1.0000 real_recall 1.0000 AUC 1.0000 | 34.8 + 3.4 min
+[2026-09-24T12:13:16] Epoch 5: train_loss 0.0267 | VAL bal_acc 1.0000 fake_recall 1.0000 real_recall 1.0000 AUC 1.0000 | 34.8 + 3.4 min
+[2026-09-24T12:13:16] Training complete.

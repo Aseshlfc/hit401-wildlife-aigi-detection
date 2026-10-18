@@ -1,0 +1,13 @@
+date: 2026-09-24T08:46:54
+python: 3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]
+torch: 2.11.0+cu128
+torchvision: 0.26.0+cu128
+transformers: 4.57.3
+timm: 1.0.10
+cuda: 12.8
+gpu: Tesla T4
+omniaid_repo: https://github.com/yunncheng/OmniAID.git
+omniaid_commit: 40749406fbcd8893c11a160edf4a72a2d4dc7056
+base_checkpoint_hf: Yunncheng/OmniAID@279cae7398ac6636f46fc4668f755f11210b36bf:ckpt/checkpoint_omniaid_v2.pth
+base_checkpoint_sha256: 919338928cab88cef1e6e4b85777749c74bdff6a1796fcd7e43a91422327f906
+fine_tuning_source: official OmniAID main_finetune.py --pretrained_checkpoint (training_mode=standard); not OmniAID_LoRA

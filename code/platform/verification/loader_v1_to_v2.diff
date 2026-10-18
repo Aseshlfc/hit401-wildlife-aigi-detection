@@ -1,0 +1,118 @@
+--- verification/reference_v1/omniaid_models.py	2026-09-26 03:23:08
++++ inference.py	2026-09-29 22:11:03
+@@ -6,21 +6,19 @@
+ 
+ Model construction, preprocessing and scoring are the same code path as Experiment 4 (exp4_evaluate.py):
+ official OmniAID repository at a pinned commit, official GenerativeImageDataset eval transform, fp32, eval mode.
+-Runs in Google Colab with a GPU and the project Google Drive mounted.
++
++Prototype v2: this file is a copy of the VERIFIED Prototype v1 omniaid_models.py. Only file LOCATIONS changed (they now
++come from config.py instead of the project Google Drive), and the start-up self-check uses the bundled verification
++images instead of Drive validation folders. Model construction, the argument set, preprocessing, score_files,
++thresholds and the decision rule are unchanged. See verification/LOADER_CHANGES.md for the line-by-line diff.
++Needs a CUDA GPU (the pinned OmniAID argument parser defaults to --device cuda, as in every project run).
+ """
+ import copy, hashlib, json, os, subprocess, sys, tempfile
+ from pathlib import Path
+ 
+-DRIVE = Path(os.environ.get("HIT401_DRIVE", "/content/drive/MyDrive/HIT401_Wildlife_Deepfake"))
+-ADAPT = DRIVE / "metadata" / "model_adaptation"
+-OMNIAID_REPO_URL = "https://github.com/yunncheng/OmniAID.git"
+-OMNIAID_COMMIT = "40749406fbcd8893c11a160edf4a72a2d4dc7056"
+-HF_REPO, HF_REVISION, HF_FILENAME = "Yunncheng/OmniAID", "279cae7398ac6636f46fc4668f755f11210b36bf", "ckpt/checkpoint_omniaid_v2.pth"
+-BASE_CKPT_SHA256 = "919338928cab88cef1e6e4b85777749c74bdff6a1796fcd7e43a91422327f906"
+-ADAPTED_SHA256 = "733ab455a3d1f677451c9368846eb44e36236d492571d7960d075da641a3cd66"
+-T_ORIGINAL = 0.35996127128601074
+-T_ADAPTED = 0.5848991870880127
+-REPO = Path("/content/OmniAID_prototype")
++from config import (OMNIAID_REPO_URL, OMNIAID_COMMIT, HF_REPO, HF_REVISION, HF_FILENAME, BASE_CKPT_SHA256, ADAPTED_SHA256,
++                    ARCH_CONFIG_SHA256, T_ORIGINAL, T_ADAPTED, SELECTED_EPOCH, ADAPTED_FILE, ARCH_CONFIG, BASE_CKPT_FILE,
++                    REPO_DIR as REPO, RUN_DIR, EXPECTED_SCORES, VERIFY_IMAGES_DIR, SELF_CHECK_TOLERANCE)
+ 
+ 
+ def sha256_file(p):
+@@ -38,29 +36,39 @@
+         if not REPO.exists():
+             subprocess.run(["git", "clone", "-q", OMNIAID_REPO_URL, str(REPO)], check=True)
+         subprocess.run(["git", "-C", str(REPO), "checkout", "-q", OMNIAID_COMMIT], check=True)
++        # v2: confirm the checkout really is the pinned, unmodified commit (the same check exp4_evaluate.py made)
++        head = subprocess.run(["git", "-C", str(REPO), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
++        dirty = subprocess.run(["git", "-C", str(REPO), "status", "--porcelain"], capture_output=True, text=True).stdout.strip()
++        assert head == OMNIAID_COMMIT and not dirty, f"OmniAID repository is not the clean pinned commit ({head})"
+         import torch
+         from huggingface_hub import hf_hub_download
+         self.torch = torch
+-        base_ckpt = hf_hub_download(repo_id=HF_REPO, filename=HF_FILENAME, revision=HF_REVISION)
+-        frozen = json.load(open(ADAPT / "frozen_selection.json"))
+-        adapted_file = Path(frozen["adapted_file"])
+-        assert abs(frozen["adapted_threshold"] - T_ADAPTED) < 1e-15 and frozen["selected_epoch"] == 2
++        base_ckpt = BASE_CKPT_FILE or hf_hub_download(repo_id=HF_REPO, filename=HF_FILENAME, revision=HF_REVISION)
++        # v2: the frozen Exp 3 values come from config.py (copied from frozen_selection.json), the file from a portable path
++        adapted_file = Path(ADAPTED_FILE)
++        if not adapted_file.is_file():
++            raise FileNotFoundError(f"Adapted parameter file not found: {adapted_file}. See models/README_MODEL_SETUP.md")
++        assert abs(0.5848991870880127 - T_ADAPTED) < 1e-15 and SELECTED_EPOCH == 2
++        # v2: the two small project files are always hashed (about 1 s); only the 3.24 GB base hash can be skipped, as in v1
++        assert sha256_file(adapted_file) == ADAPTED_SHA256, "adapted parameter file hash mismatch"
++        assert sha256_file(ARCH_CONFIG) == ARCH_CONFIG_SHA256, "architecture config hash mismatch"
++        self.base_hash_verified = False
+         if verify_hashes:  # about 1 minute; proves the exact frozen weights are loaded
+             assert sha256_file(base_ckpt) == BASE_CKPT_SHA256, "base checkpoint hash mismatch"
+-            assert sha256_file(adapted_file) == ADAPTED_SHA256, "adapted parameter file hash mismatch"
++            self.base_hash_verified = True
+ 
+         os.chdir(REPO); sys.path.insert(0, str(REPO))
+         import main_finetune
+         from data.datasets import GenerativeImageDataset
+         self.GenerativeImageDataset = GenerativeImageDataset
+-        cfg = ADAPT / "config_omniaid_v2_recovered.json"
++        cfg = ARCH_CONFIG
+         dummy = Path(tempfile.mkdtemp()) / "0_real"; dummy.mkdir(parents=True)
+         # same argument set as Exp 3 / Exp 4 (training-only fields are unused at inference)
+         args = main_finetune.get_args_parser().parse_args([
+             "--model", "OmniAID", "--img_size", "336", "--batch_size", "4", "--update_freq", "8", "--epochs", "5",
+             "--blr", "0.0002", "--opt", "adamw", "--weight_decay", "0.0", "--min_lr", "1e-06", "--warmup_epochs", "0",
+             "--smoothing", "0.1", "--use_amp", "True", "--seed", "0", "--num_workers", "0",
+-            "--data_path", str(dummy.parent), "--eval_data_path", str(dummy.parent), "--output_dir", "/content/prototype_run",
++            "--data_path", str(dummy.parent), "--eval_data_path", str(dummy.parent), "--output_dir", str(RUN_DIR),
+             "--moe_config_path", str(cfg), "--is_hybrid", "True", "--training_mode", "standard",
+             "--pretrained_checkpoint", base_ckpt, "--save_ckpt", "False", "--dist_eval", "False"])
+         for k, v in json.load(open(cfg)).items():
+@@ -104,18 +112,24 @@
+                         out[names[os.path.basename(fp)]][name] = float(pr)
+         return out
+ 
+-    def self_check(self, n_per_class=2):
+-        """Re-score a few VALIDATION images and compare with the saved Exp 1 / Exp 3 validation scores."""
++    def self_check(self):
++        """v2: re-score the bundled verification images (Dataset v1 VALIDATION and frozen Exp 4 images) and compare with
++        their saved experiment scores (verification_images/expected_scores.csv). Same 1e-4 tolerance as v1."""
+         import pandas as pd
+-        man = pd.read_csv(DRIVE / "metadata" / "split_manifest.csv")
+-        man["filename"] = man.local_path.map(os.path.basename)
+-        val = man[man.split == "val"]
+-        pick = pd.concat([val[val.label == "real"].head(n_per_class), val[val.label == "fake"].head(n_per_class)])
+-        files = [str(DRIVE / "final" / "validation" / r.label / r.filename) for r in pick.itertuples()]
++        exp = pd.read_csv(EXPECTED_SCORES)
++        files = [str(VERIFY_IMAGES_DIR / f) for f in exp.filename]
++        missing = [f for f in files if not os.path.isfile(f)]
++        if missing:
++            return {"images": 0, "max_abs_diff": float("nan"), "passed": False, "error": f"missing verification images: {missing}"}
+         got = self.score_files(files)
+-        saved_o = pd.read_csv(ADAPT / "validation_predictions_epoch0_unadapted.csv").set_index("image_id").score
+-        saved_a = pd.read_csv(ADAPT / "validation_predictions.csv").set_index("image_id").score
+-        diffs = []
+-        for r, f in zip(pick.itertuples(), files):
+-            diffs.append(abs(got[f]["original"] - saved_o[r.image_id])); diffs.append(abs(got[f]["adapted"] - saved_a[r.image_id]))
+-        return {"images": len(files), "max_abs_diff": max(diffs), "passed": max(diffs) < 1e-4}
++        diffs, flips, per_image = [], 0, []
++        for r, f in zip(exp.itertuples(), files):
++            do, da = abs(got[f]["original"] - r.expected_original_score), abs(got[f]["adapted"] - r.expected_adapted_score)
++            diffs += [do, da]
++            flips += int((got[f]["original"] >= T_ORIGINAL) != (r.expected_original_score >= T_ORIGINAL))
++            flips += int((got[f]["adapted"] >= T_ADAPTED) != (r.expected_adapted_score >= T_ADAPTED))
++            per_image.append({"filename": r.filename, "original_score": got[f]["original"], "expected_original_score": r.expected_original_score,
++                              "adapted_score": got[f]["adapted"], "expected_adapted_score": r.expected_adapted_score, "max_abs_diff": max(do, da)})
++        md = max(diffs)
++        return {"images": len(files), "max_abs_diff": md, "decision_flips": flips,
++                "passed": md < SELF_CHECK_TOLERANCE and flips == 0, "per_image": per_image}

@@ -1,0 +1,4 @@
+group,n,original_detected,original_missed,original_fake_recall,original_fnr,original_recall_ci95,original_mean_score,original_median_score,adapted_detected,adapted_missed,adapted_fake_recall,adapted_fnr,adapted_recall_ci95,adapted_mean_score,adapted_median_score,recall_change_pts
+camera_day,74,65,9,0.8784,0.1216,"(0.7847, 0.9347)",0.5987,0.6143,60,14,0.8108,0.1892,"(0.7071, 0.8838)",0.7302,0.8098,-6.76
+camera_night_ir,84,84,0,1.0,0.0,"(0.9563, 1.0)",0.7964,0.8131,84,0,1.0,0.0,"(0.9563, 1.0)",0.9323,0.9478,0.0
+community,168,154,14,0.9167,0.0833,"(0.865, 0.9497)",0.5929,0.6059,157,11,0.9345,0.0655,"(0.8866, 0.963)",0.8391,0.8848,1.78

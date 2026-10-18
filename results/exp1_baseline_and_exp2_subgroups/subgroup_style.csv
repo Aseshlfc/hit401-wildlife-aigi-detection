@@ -1,0 +1,4 @@
+group,n,accuracy,note
+camera_day,87,1.0,single-class (fake)
+camera_night_ir,75,1.0,single-class (fake)
+community,168,0.9940476190476191,single-class (fake)

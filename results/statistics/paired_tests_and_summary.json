@@ -1,0 +1,79 @@
+{
+ "note": "Post-hoc analysis of frozen predictions only. No model run, no threshold or selection change.",
+ "inputs": {
+  "exp1": {
+   "file": "~/Desktop/Deepfake/Verification_Evidence/model_baseline/baseline_test_predictions.csv",
+   "sha256": "932f14e47e230799f3b7f16f9737f6b8bcc49b0dcac6ced457148e4083cdefb7"
+  },
+  "exp3": {
+   "file": "~/Desktop/Deepfake/Verification_Evidence/model_adaptation/test_predictions.csv",
+   "sha256": "3017d95420afe4dc262be422618c3aa8bbededb71081dbebc64129308e449c47"
+  },
+  "exp4": {
+   "file": "~/Desktop/Deepfake/Verification_Evidence/model_heldout_generator/evaluation/exp4_predictions.csv",
+   "sha256": "f3911b59f4c2655434078cb4728a6b84e31276b56e204b359844820401718eb3"
+  }
+ },
+ "dataset_v1_test_exp1_vs_exp3": {
+  "n": 664,
+  "both_correct": 645,
+  "both_wrong": 1,
+  "correct_only_original": 0,
+  "correct_only_adapted": 18,
+  "exact_mcnemar_p_all": 7.62939453125e-06,
+  "real_only_new_errors": 0,
+  "real_only_corrected": 17,
+  "exact_mcnemar_p_real": 1.52587890625e-05,
+  "accuracy_diff_pts": 2.71,
+  "real_recall_diff_pts": 5.09,
+  "inat_real_recall_diff_pts": 9.66,
+  "roc_auc": {
+   "orig": 0.991853,
+   "adapt": 1.0
+  },
+  "average_precision": {
+   "orig": 0.987396,
+   "adapt": 1.0
+  },
+  "remaining_errors": [
+   "inat_1573476"
+  ]
+ },
+ "exp4_flux_original_vs_adapted": {
+  "n": 326,
+  "both_detected": 293,
+  "both_missed": 15,
+  "missed_only_by_adapted": 10,
+  "missed_only_by_original": 8,
+  "exact_mcnemar_p": 0.8145294189453125,
+  "recall_diff_pts": -0.61
+ },
+ "sdxl_vs_flux_fake_recall": {
+  "original": {
+   "sdxl": "329/330",
+   "flux": "303/326",
+   "sdxl_ci": [
+    98.3,
+    99.95
+   ],
+   "flux_ci": [
+    89.64,
+    95.25
+   ],
+   "diff_pts": -6.75
+  },
+  "adapted": {
+   "sdxl": "330/330",
+   "flux": "301/326",
+   "sdxl_ci": [
+    98.85,
+    100.0
+   ],
+   "flux_ci": [
+    88.92,
+    94.75
+   ],
+   "diff_pts": -7.67
+  }
+ }
+}

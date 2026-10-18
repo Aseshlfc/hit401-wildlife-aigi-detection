@@ -1,0 +1,1 @@
+Re-checked 2026-09-30 00:11 ACST: local 268/268 OK, Drive 23/23 OK (shasum -a 256 -c). Prototype v1, experiment evidence, locks, predictions and adapted checkpoint unchanged.

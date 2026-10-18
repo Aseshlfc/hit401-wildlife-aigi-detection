@@ -1,0 +1,2 @@
+group,n,original_detected,original_missed,original_fake_recall,original_fnr,original_recall_ci95,original_mean_score,original_median_score,adapted_detected,adapted_missed,adapted_fake_recall,adapted_fnr,adapted_recall_ci95,adapted_mean_score,adapted_median_score,recall_change_pts
+ALL,326,303,23,0.9294,0.0706,"(0.8964, 0.9525)",0.6466,0.6684,301,25,0.9233,0.0767,"(0.8892, 0.9475)",0.8384,0.9009,-0.61

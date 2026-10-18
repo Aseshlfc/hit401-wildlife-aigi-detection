@@ -1,0 +1,13 @@
+type,group,n,accuracy,precision,recall,f1
+authentic_source,Caltech,158,1.0,,,
+authentic_source,iNaturalist,176,0.9943181818181818,,,
+synthetic_style,camera_day,87,1.0,,,
+synthetic_style,camera_night_ir,75,1.0,,,
+synthetic_style,community,168,1.0,,,
+category,bobcat,112,1.0,1.0,1.0,1.0
+category,coyote,119,1.0,1.0,1.0,1.0
+category,opossum,81,1.0,1.0,1.0,1.0
+category,rabbit,87,0.9885057471264368,0.9803921568627451,1.0,0.9900990099009901
+category,raccoon,78,1.0,1.0,1.0,1.0
+category,skunk,100,1.0,1.0,1.0,1.0
+category,squirrel,87,1.0,1.0,1.0,1.0

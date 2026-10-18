@@ -1,0 +1,5 @@
+category,image_1,image_2,path_1,path_2,phash_distance
+opossum,inat_5707301,inat_5707305,/content/drive/MyDrive/HIT401_Wildlife_Deepfake/raw/real/inaturalist/inat_opossum_4720930_5707301.jpg,/content/drive/MyDrive/HIT401_Wildlife_Deepfake/raw/real/inaturalist/inat_opossum_4720931_5707305.jpg,4
+opossum,inat_5707305,inat_5707306,/content/drive/MyDrive/HIT401_Wildlife_Deepfake/raw/real/inaturalist/inat_opossum_4720931_5707305.jpg,/content/drive/MyDrive/HIT401_Wildlife_Deepfake/raw/real/inaturalist/inat_opossum_4720932_5707306.jpg,2
+opossum,inat_10990855,inat_11316671,/content/drive/MyDrive/HIT401_Wildlife_Deepfake/raw/real/inaturalist/inat_opossum_8285319_10990855.jpg,/content/drive/MyDrive/HIT401_Wildlife_Deepfake/raw/real/inaturalist/inat_opossum_8485132_11316671.jpg,0
+skunk,inat_12017651,inat_12017676,/content/drive/MyDrive/HIT401_Wildlife_Deepfake/raw/real/inaturalist/inat_skunk_8923945_12017651.jpg,/content/drive/MyDrive/HIT401_Wildlife_Deepfake/raw/real/inaturalist/inat_skunk_8923947_12017676.jpg,2

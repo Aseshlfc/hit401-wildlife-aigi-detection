@@ -1,0 +1,41 @@
+{
+  "selected_epoch": 2,
+  "adapted_threshold": 0.5848991870880127,
+  "baseline_threshold": 0.35996127128601074,
+  "Q1_iNaturalist_real_accuracy": [
+    0.8977272727272727,
+    0.9943181818181818
+  ],
+  "Q2_false_positives": [
+    18,
+    1
+  ],
+  "Q3_real_recall": [
+    0.9461077844311377,
+    0.9970059880239521
+  ],
+  "Q4_fake_recall": [
+    0.996969696969697,
+    1.0
+  ],
+  "Q5_Caltech_real_accuracy": [
+    1.0,
+    1.0
+  ],
+  "Q6_style_accuracy": {
+    "camera_day": [
+      1.0,
+      1.0
+    ],
+    "camera_night_ir": [
+      1.0,
+      1.0
+    ],
+    "community": [
+      0.9940476190476191,
+      1.0
+    ]
+  },
+  "Q7_corrected_errors": 18,
+  "Q8_new_errors": 0
+}

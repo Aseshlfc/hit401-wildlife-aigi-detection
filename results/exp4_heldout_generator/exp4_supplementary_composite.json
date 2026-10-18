@@ -1,0 +1,29 @@
+{
+ "label": "SUPPLEMENTARY composite (NOT the primary RQ4 result): 334 Dataset v1 TEST real images (saved scores; original-model real scores come from the Exp 1 scorer, adapted from Exp 3) + 326 Exp 4 FLUX fakes",
+ "original": {
+  "n_real": 334,
+  "n_fake": 326,
+  "TN": 316,
+  "FP": 18,
+  "FN": 23,
+  "TP": 303,
+  "accuracy": 0.9379,
+  "balanced_accuracy": 0.9378,
+  "precision": 0.9439,
+  "roc_auc": 0.9815,
+  "average_precision": 0.9743
+ },
+ "adapted": {
+  "n_real": 334,
+  "n_fake": 326,
+  "TN": 333,
+  "FP": 1,
+  "FN": 25,
+  "TP": 301,
+  "accuracy": 0.9606,
+  "balanced_accuracy": 0.9602,
+  "precision": 0.9967,
+  "roc_auc": 0.9972,
+  "average_precision": 0.9979
+ }
+}

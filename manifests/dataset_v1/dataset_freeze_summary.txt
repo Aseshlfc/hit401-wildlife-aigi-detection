@@ -1,0 +1,97 @@
+DATASET FREEZE SUMMARY -- HIT401 Wildlife Deepfake Detection
+FINAL DATASET V1 -- frozen 23 September 2026
+======================================================================
+
+TOTALS
+------------------------------
+Total usable images: 4,676
+Real: 2,365
+  Caltech Camera Traps: 1,190
+  iNaturalist: 1,175
+Fake (SDXL): 2,311
+
+PER-SOURCE QC RESULTS
+------------------------------
+Caltech Camera Traps (1,190 candidate images):
+  KEEP (no duplicate flag): 883
+  GROUP_SAME_SPLIT (near-duplicate pairs, kept, constrained to same split): 307
+  EXCLUDE: 0
+  Usable: 1,190/1,190
+  265 near-duplicate pairs (pHash<=4) = 307 unique images (verified from raw pair data,
+  not assumed -- some images appear in more than one pair).
+
+iNaturalist (1,190 candidate images):
+  KEEP: 1,175
+  EXCLUDE: 15 (12 too-small; 3 from two exact-duplicate groups, including one
+  opossum/bobcat identical-file anomaly flagged for supervisor attention)
+  Usable: 1,175/1,190
+
+SDXL synthetic (2,345 generated images):
+  KEEP (visually reviewed, clean): 2,105
+  EXCLUDE (confirmed generation-failure artifacts): 31
+  NEEDS_MANUAL_REVIEW (ambiguous, unresolved): 3
+  NOT_REVIEWED (technically valid, visual QC blocked by a local Google Drive
+  sync-client issue this session -- confirmed via browser test to be a client-side
+  issue, not corruption or a Google-server problem): 206
+  Usable (KEEP + NOT_REVIEWED, train-only): 2,311/2,345
+  Removed from dataset entirely: 34 (31 EXCLUDE + 3 NEEDS_MANUAL_REVIEW)
+
+FINAL TRAIN/VALIDATION/TEST SPLIT
+------------------------------
+TRAIN:      3,319
+VALIDATION:   693
+TEST:         664
+Total:      4,676
+
+Physical creation (via Colab, native Drive access): 4,676/4,676 files copied,
+0 missing, 0 errors. Folder structure: final/{train,validation,test}/{real,fake}/
+Verified counts: train(real=1668,fake=1651) val(real=363,fake=330) test(real=334,fake=330)
+
+SPLIT METHODOLOGY
+------------------------------
+Caltech: camera-LOCATION-disjoint (not sequence-disjoint). Verified that every Caltech
+sequence_id is unique per image (1,190 unique values for 1,190 images), so a
+sequence-disjoint constraint would be a no-op. Verified that all 265/265 near-duplicate
+pairs share the same camera location. Location-disjoint grouping therefore subsumes the
+pair-grouping requirement AND protects against the model learning fixed-camera
+backgrounds as a shortcut -- the primary reason for this choice.
+
+iNaturalist: duplicate-group-disjoint (near-duplicate + exact-duplicate groups kept
+together in one split).
+
+SDXL: the 206 NOT_REVIEWED images are TRAIN-ONLY. Validation and test draw exclusively
+from visually-reviewed KEEP images. EXCLUDE and NEEDS_MANUAL_REVIEW images are not in
+the dataset at all. Held-out-generator data (for future out-of-distribution testing) is
+separate from this split entirely and has not yet been selected.
+
+SPLIT INTEGRITY CHECKS -- 10/10 PASSED
+------------------------------
+1. Zero image_id overlap across train/val/test
+2. Zero file overlap
+3. Zero Caltech near-duplicate pairs split across sets
+4. Zero Caltech locations split across sets
+5. Zero iNaturalist duplicate-groups split across sets
+6. All 206 NOT_REVIEWED SDXL images assigned to train only
+7. Zero EXCLUDE SDXL images present in the split
+8. Zero NEEDS_MANUAL_REVIEW SDXL images present in the split
+9. Held-out-generator images absent (single generator, SDXL, used throughout)
+10. Zero NOT_REVIEWED SDXL images in validation or test
+
+STILL OPEN (not resolved by this freeze)
+------------------------------
+- 3 SDXL NEEDS_MANUAL_REVIEW images: excluded from the dataset pending individual
+  re-inspection.
+- 206 SDXL NOT_REVIEWED images: technically valid, included as train-only; a completed
+  visual review remains an open item for a future dataset revision once Drive access
+  is reliable again.
+- Held-out generator selection: not started, separate from this split.
+
+EVIDENCE FILES
+------------------------------
+- authentic_image_qc_log.csv -- per-image Caltech + iNaturalist QC decisions
+- sdxl_visual_qc_log.csv -- per-image SDXL QC decisions (flagged images + all 206
+  NOT_REVIEWED images listed)
+- split_manifest.csv -- final train/val/test assignment for all 4,676 images
+- licensing_verification.txt -- Caltech (CDLA-Permissive) + iNaturalist (CC0/CC-BY)
+- sdxl_visual_review/ -- 56 contact sheets covering all 2,345 SDXL images
+- inaturalist_dark_review/ -- 3 contact sheets covering all 60 dark-image flags

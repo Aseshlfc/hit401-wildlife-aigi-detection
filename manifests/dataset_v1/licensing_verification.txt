@@ -1,0 +1,33 @@
+AUTHENTIC-IMAGE LICENSING VERIFICATION
+==================================================
+
+1. CALTECH CAMERA TRAPS
+------------------------------
+Authoritative source: LILA BC (https://lila.science/datasets/caltech-camera-traps)
+License: Community Data License Agreement (CDLA) -- Permissive variant
+Required citation: Beery, S., Van Horn, G., Perona, P. (2018). Recognition in
+  Terra Incognita. ECCV 2018. -- already in report reference list.
+Download source used: gs://public-datasets-lila/caltech-unzipped/cct_images
+  (matches LILA's official GCP bucket exactly, verified 22 Sep 2026)
+Images used: 1190 (1190 KEEP/GROUP_SAME_SPLIT after QC, 0 excluded on licensing grounds)
+
+2. iNATURALIST
+------------------------------
+Authoritative source: iNaturalist API (https://api.inaturalist.org/v1/observations)
+Per-image license captured directly from API response at download time (field: 'license').
+Download pipeline explicitly filtered to photo_license IN {CC0, CC-BY} only --
+  no other license types were requested or downloaded.
+License breakdown across all 1190 candidate images: {'cc-by': 1010, 'cc0': 180}
+Per-image attribution string captured in manifest column 'attribution'.
+Images used: 1175/1190 after QC (15 excluded for technical/duplicate reasons,
+  NOT for licensing reasons -- all excluded images were also correctly licensed).
+
+3. SYNTHETIC IMAGES (SDXL)
+------------------------------
+Generator: Stability AI SDXL base 1.0, run locally in this project's own Colab
+  environment. No third-party licensed content used as generation input beyond
+  the open-source model weights (CreativeML Open RAIL++-M license).
+
+CONCLUSION: No unlicensed or improperly-attributed authentic images identified.
+Both authentic-image sources verified against their own authoritative documentation
+(LILA BC page; iNaturalist API responses), not inferred or assumed.

@@ -1,0 +1,62 @@
+[
+ {
+  "panel": "a",
+  "label": "Caltech (real)",
+  "file": "MyDrive/HIT401_Wildlife_Deepfake/raw/real/caltech/cct_coyote_59fc7d2a-23d2-11e8-a6a3-ec086b02610b.jpg",
+  "attribution": ""
+ },
+ {
+  "panel": "b",
+  "label": "Caltech night/IR (real)",
+  "file": "MyDrive/HIT401_Wildlife_Deepfake/raw/real/caltech/cct_raccoon_59328c9e-23d2-11e8-a6a3-ec086b02610b.jpg",
+  "attribution": ""
+ },
+ {
+  "panel": "c",
+  "label": "iNaturalist (real, CC0)",
+  "file": "MyDrive/HIT401_Wildlife_Deepfake/raw/real/inaturalist/inat_bobcat_2516178_2826775.jpg",
+  "attribution": "inat_2826775: no rights reserved (CC0), obs. 2516178"
+ },
+ {
+  "panel": "d",
+  "label": "iNaturalist (real, CC0)",
+  "file": "MyDrive/HIT401_Wildlife_Deepfake/raw/real/inaturalist/inat_skunk_35508_60182.jpg",
+  "attribution": "inat_60182: no rights reserved (CC0), obs. 35508"
+ },
+ {
+  "panel": "e",
+  "label": "SDXL community",
+  "file": "MyDrive/HIT401_Wildlife_Deepfake/raw/fake/sdxl/generated/sdxl_opossum_community_500014.jpg",
+  "attribution": "sdxl_opossum_community_500014"
+ },
+ {
+  "panel": "f",
+  "label": "SDXL camera day",
+  "file": "MyDrive/HIT401_Wildlife_Deepfake/raw/fake/sdxl/generated/sdxl_opossum_camera_day_502019.jpg",
+  "attribution": "sdxl_opossum_camera_day_502019"
+ },
+ {
+  "panel": "g",
+  "label": "SDXL camera night ir",
+  "file": "MyDrive/HIT401_Wildlife_Deepfake/raw/fake/sdxl/generated/sdxl_opossum_camera_night_ir_504019.jpg",
+  "attribution": "sdxl_opossum_camera_night_ir_504019"
+ },
+ {
+  "panel": "h",
+  "label": "FLUX community",
+  "file": "MyDrive/HIT401_Wildlife_Deepfake/exp4_heldout_generator/final/1_fake/flux_bobcat_community_640016.jpg",
+  "attribution": "flux_bobcat_community_640016"
+ },
+ {
+  "panel": "i",
+  "label": "FLUX camera day",
+  "file": "MyDrive/HIT401_Wildlife_Deepfake/exp4_heldout_generator/final/1_fake/flux_coyote_camera_day_632007.jpg",
+  "attribution": "flux_coyote_camera_day_632007"
+ },
+ {
+  "panel": "j",
+  "label": "FLUX camera night ir",
+  "file": "MyDrive/HIT401_Wildlife_Deepfake/exp4_heldout_generator/final/1_fake/flux_bobcat_camera_night_ir_644022.jpg",
+  "attribution": "flux_bobcat_camera_night_ir_644022"
+ }
+]

@@ -1,0 +1,4 @@
+image_id,old_decision,old_rule,old_reason,new_decision,new_rule,new_reason,why_corrected,corrected_utc
+flux_bobcat_camera_day_642001,ACCEPT,,,REJECT,R6,"clearly long/ringed tail (user bobcat tail rule 2026-09-25, applied consistently)","Drive sync race: Colab recorded round 2 from the earlier draft file before this reviewer decision (made the same session, before recording was intended) had synced",2026-09-25T02:07:21+00:00
+flux_bobcat_camera_night_ir_644005,ACCEPT,,,REJECT,R6,"clearly long/ringed tail (user bobcat tail rule 2026-09-25, applied consistently)",Drive sync race: Colab recorded round 2 from the earlier draft file before this reviewer decision had synced,2026-09-25T02:07:21+00:00
+flux_bobcat_community_640008,ACCEPT,,,REJECT,R6,"clearly long/ringed tail (user bobcat tail rule 2026-09-25, applied consistently)",Drive sync race: Colab recorded round 2 from the earlier draft file before this reviewer decision had synced,2026-09-25T02:07:21+00:00

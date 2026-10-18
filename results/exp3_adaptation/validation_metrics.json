@@ -1,0 +1,14 @@
+{
+  "selected_epoch": 2,
+  "val_threshold_youden": 0.5848991870880127,
+  "val_balanced_accuracy": 1.0,
+  "val_accuracy": 1.0,
+  "val_fake_recall": 1.0,
+  "val_real_recall": 1.0,
+  "val_roc_auc": 1.0,
+  "val_ap": 1.0,
+  "val_ce_loss": 0.05407598328089665,
+  "val_mean_score_real": 0.049008461808370166,
+  "val_mean_score_fake": 0.9452195552262392,
+  "val_accuracy_at_0.5": 1.0
+}

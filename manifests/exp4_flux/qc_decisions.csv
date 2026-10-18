@@ -1,0 +1,654 @@
+image_id,qc_decision,rule,reason,auto_flags,reviewer,decided_utc,review_round
+flux_opossum_community_600000,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600001,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600002,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600003,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600004,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600005,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600006,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600007,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600008,REJECT,R4,snout rendered as a long trunk-like appendage (malformed anatomy),,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600009,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600010,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600011,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600012,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600013,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600014,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600015,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600016,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600017,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600018,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600019,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600020,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600021,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600022,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_community_600023,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_day_602000,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_day_602001,REJECT,R2,timestamp/text strip; also night flash scene (R7),,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_day_602002,REJECT,R2,timestamp/text strip; also night flash scene (R7),,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_day_602003,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_day_602004,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_day_602005,REJECT,R7,flash-lit scene with dark background - not clearly daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_day_602006,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_day_602007,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_day_602008,REJECT,R7,USER DECISION: user: not clearly daylight (green night-vision/dusk look) (was NEEDS_USER: green-tinted twilight trail scene; ambiguous between dusk/night-vision and daytime),,user,2026-09-25T01:53:04+00:00,1
+flux_opossum_camera_day_602009,REJECT,R7,flash-lit scene with dark vignetted background - not clearly daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_day_602010,REJECT,R2,timestamp text '2717:45'; also flash-lit (R7),,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_day_602011,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_night_ir_604000,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_night_ir_604001,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_night_ir_604002,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_night_ir_604003,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_night_ir_604004,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_night_ir_604005,REJECT,R6,"USER DECISION: user: opossum not recognisable (seen from behind) (was NEEDS_USER: animal seen from behind, no diagnostic features; opossum recognisable?)",,user,2026-09-25T01:53:04+00:00,1
+flux_opossum_camera_night_ir_604006,REJECT,R6,tiny distant blob; species not recognisable,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_night_ir_604007,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_night_ir_604008,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_night_ir_604009,REJECT,R6,USER DECISION: user: not recognisable as opossum (rodent-like face) (was NEEDS_USER: front-facing rodent/groundhog-like animal; opossum recognisable?),,user,2026-09-25T01:53:04+00:00,1
+flux_opossum_camera_night_ir_604010,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_opossum_camera_night_ir_604011,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610000,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610001,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610002,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610003,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610004,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610005,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610006,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610007,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610008,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610009,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610010,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610011,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610012,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610013,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610014,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610015,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610016,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610017,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610018,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610019,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610020,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610021,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_community_610022,ACCEPT,,USER DECISION: user: acceptable realistic raccoon (was NEEDS_USER: raccoon shape but unnatural orange/red-panda-like colouring; species/realism?),,user,2026-09-25T01:53:04+00:00,1
+flux_raccoon_community_610023,REJECT,R5,two heads on one body (doubled head),,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_camera_day_612000,REJECT,R7,flash-lit foliage against dark background - not daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_camera_day_612001,REJECT,R2,rendered text 'Day Trail Camera'; also flash-lit,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_camera_day_612002,REJECT,R7,monochrome/IR-looking scene,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_camera_day_612003,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_camera_day_612004,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_camera_day_612005,ACCEPT,,,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_camera_day_612006,REJECT,R7,flash-lit with dark background - not daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_camera_day_612007,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_camera_day_612008,REJECT,R7,flash-lit with dark background - not daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_camera_day_612009,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_camera_day_612010,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_raccoon_camera_day_612011,REJECT,R7,monochrome night scene; also text in corner (R2),,claude-code-visual,2026-09-25T01:46:39+00:00,1
+flux_bobcat_camera_day_642000,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_day_642001,REJECT,R6,"clearly long/ringed tail (user bobcat tail rule 2026-09-25, applied consistently)",,claude-code-visual,2026-09-25T02:07:21+00:00,2
+flux_bobcat_camera_day_642002,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_camera_day_642003,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_day_642004,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_day_642005,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_camera_day_642006,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_day_642007,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_day_642008,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_day_642009,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_day_642010,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?; also lighting: daylight?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_camera_day_642011,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_night_ir_644000,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_night_ir_644001,ACCEPT,,USER DECISION: user rule: tail hidden/unclear - not rejected on tail alone (was NEEDS_USER: domestic-cat-like appearance - bobcat?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_camera_night_ir_644002,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_night_ir_644003,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_camera_night_ir_644004,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_night_ir_644005,REJECT,R6,"clearly long/ringed tail (user bobcat tail rule 2026-09-25, applied consistently)",,claude-code-visual,2026-09-25T02:07:21+00:00,2
+flux_bobcat_camera_night_ir_644006,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_night_ir_644007,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_night_ir_644008,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_night_ir_644009,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_camera_night_ir_644010,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_night_ir_644011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_community_640000,REJECT,R5,doubled head,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_community_640001,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_community_640002,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_community_640003,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_community_640004,REJECT,R5,two heads/fused bodies + text (R2),,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_community_640005,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_community_640006,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_community_640007,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_community_640008,REJECT,R6,"clearly long/ringed tail (user bobcat tail rule 2026-09-25, applied consistently)",,claude-code-visual,2026-09-25T02:07:21+00:00,2
+flux_bobcat_community_640009,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_community_640010,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_community_640011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_community_640012,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_community_640013,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_community_640014,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_community_640015,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_community_640016,ACCEPT,,USER DECISION: user rule: tail hidden/unclear - not rejected on tail alone (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_community_640017,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_community_640018,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_community_640019,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_community_640020,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_community_640021,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_bobcat_community_640022,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_community_640023,REJECT,R6,USER DECISION: user rule: clearly long/ringed tail (was NEEDS_USER: bobcat rendered with a long ringed/spotted tail (bobcat has a short tail; prompt says 'short tail') - species correct?),,user,2026-09-25T02:07:22+00:00,2
+flux_coyote_camera_day_632000,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_day_632001,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_day_632002,REJECT,R7,monochrome/IR-looking scene - not daylight; text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_day_632003,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_day_632004,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_day_632005,REJECT,R7,monochrome/IR-looking scene - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_day_632006,REJECT,R7,flash-lit night scene (dark background) - not daylight; timestamp,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_day_632007,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_day_632008,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_day_632009,REJECT,R8,human hand in frame + text strip (R2),,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_day_632010,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_day_632011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_night_ir_634000,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_night_ir_634001,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_night_ir_634002,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_night_ir_634003,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_night_ir_634004,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_night_ir_634005,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_night_ir_634006,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_night_ir_634007,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_night_ir_634008,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_night_ir_634009,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_night_ir_634010,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_camera_night_ir_634011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630000,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630001,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630002,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630003,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630004,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630005,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630006,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630007,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630008,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630009,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630010,REJECT,R4,impossible antlered dog-like animal in background,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630012,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630013,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630014,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630015,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630016,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630017,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630018,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630019,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630020,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630021,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630022,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_coyote_community_630023,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_day_622000,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_day_622001,REJECT,R7,monochrome/IR-looking scene - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_day_622002,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_day_622003,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_day_622004,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_day_622005,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_day_622006,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_day_622007,REJECT,R7,"USER DECISION: user: dusk/flash-lit, not clearly daylight (was NEEDS_USER: flash-lit with blue sky at top: dusk or daylight?)",,user,2026-09-25T02:07:22+00:00,2
+flux_rabbit_camera_day_622008,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_day_622009,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_day_622010,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_day_622011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_night_ir_624000,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_night_ir_624001,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_night_ir_624002,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_night_ir_624003,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_night_ir_624004,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_night_ir_624005,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_night_ir_624006,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_night_ir_624007,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_night_ir_624008,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_night_ir_624009,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_night_ir_624010,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_camera_night_ir_624011,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620000,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620001,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620002,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620003,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620004,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620005,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620006,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620007,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620008,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620009,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620010,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620012,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620013,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620014,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620015,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620016,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620017,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620018,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620019,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620020,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620021,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620022,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_rabbit_community_620023,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_raccoon_camera_night_ir_614000,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_raccoon_camera_night_ir_614001,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_raccoon_camera_night_ir_614002,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_raccoon_camera_night_ir_614003,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_raccoon_camera_night_ir_614004,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_raccoon_camera_night_ir_614005,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_raccoon_camera_night_ir_614006,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_raccoon_camera_night_ir_614007,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_raccoon_camera_night_ir_614008,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_raccoon_camera_night_ir_614009,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_raccoon_camera_night_ir_614010,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_raccoon_camera_night_ir_614011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_day_662000,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_day_662001,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_day_662002,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_day_662003,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_day_662004,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_day_662005,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_day_662006,REJECT,R7,flash-lit night scene (dark background) - not daylight; black object,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_day_662007,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_day_662008,REJECT,R7,monochrome/IR-looking scene - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_day_662009,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_day_662010,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_day_662011,REJECT,R7,"USER DECISION: user: dusk/flash-lit, not clearly daylight (was NEEDS_USER: deep-blue dusk sky, flash-lit: dusk or daylight?)",,user,2026-09-25T02:07:22+00:00,2
+flux_skunk_camera_night_ir_664000,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_night_ir_664001,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_night_ir_664002,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_night_ir_664003,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_night_ir_664004,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_night_ir_664005,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_night_ir_664006,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_night_ir_664007,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_night_ir_664008,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_night_ir_664009,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_night_ir_664010,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_camera_night_ir_664011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660000,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660001,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660002,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660003,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660004,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660005,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660006,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660007,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660008,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660009,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660010,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660012,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660013,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660014,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660015,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660016,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660017,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660018,ACCEPT,,USER DECISION: user: clearly a skunk despite banding (was NEEDS_USER: zebra-like transverse bands (striped skunk has two dorsal stripes) - acceptable skunk?),,user,2026-09-25T02:07:22+00:00,2
+flux_skunk_community_660019,ACCEPT,,USER DECISION: user: clearly a skunk despite banding (was NEEDS_USER: transverse bands - acceptable skunk?),,user,2026-09-25T02:07:22+00:00,2
+flux_skunk_community_660020,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660021,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660022,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_skunk_community_660023,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_day_652000,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_day_652001,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_day_652002,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_day_652003,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_day_652004,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_day_652005,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_day_652006,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_day_652007,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_day_652008,REJECT,R7,dark flash-lit scene - not clearly daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_day_652009,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_day_652010,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_day_652011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_night_ir_654000,REJECT,R6,"tiny blob, species not recognisable",,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_night_ir_654001,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_night_ir_654002,REJECT,R6,dark animal not recognisable as squirrel,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_night_ir_654003,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_night_ir_654004,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_night_ir_654005,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_night_ir_654006,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_night_ir_654007,REJECT,R6,"rat/opossum-like, not a squirrel",,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_night_ir_654008,REJECT,R6,USER DECISION: user: squirrel not recognisable (was NEEDS_USER: dark animal seen from behind - squirrel recognisable?),,user,2026-09-25T02:07:22+00:00,2
+flux_squirrel_camera_night_ir_654009,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_night_ir_654010,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_camera_night_ir_654011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650000,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650001,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650002,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650003,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650004,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650005,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650006,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650007,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650008,ACCEPT,,"USER DECISION: user: faint striping, still a squirrel (was NEEDS_USER: striped chipmunk-like pattern; prompt is 'North American tree squirrel, Sciurus' - species correct?)",,user,2026-09-25T02:07:22+00:00,2
+flux_squirrel_community_650009,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650010,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650011,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650012,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650013,REJECT,R6,"USER DECISION: user: clear chipmunk-like striping (was NEEDS_USER: striped chipmunk-like pattern; prompt is 'North American tree squirrel, Sciurus' - species correct?)",,user,2026-09-25T02:07:22+00:00,2
+flux_squirrel_community_650014,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650015,REJECT,R6,"USER DECISION: user: clear chipmunk-like striping (was NEEDS_USER: striped chipmunk-like pattern; prompt is 'North American tree squirrel, Sciurus' - species correct?)",,user,2026-09-25T02:07:22+00:00,2
+flux_squirrel_community_650016,REJECT,R6,"USER DECISION: user: clear chipmunk-like striping (was NEEDS_USER: striped chipmunk-like pattern; prompt is 'North American tree squirrel, Sciurus' - species correct?)",,user,2026-09-25T02:07:22+00:00,2
+flux_squirrel_community_650017,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650018,ACCEPT,,"USER DECISION: user: faint striping, still a squirrel (was NEEDS_USER: striped chipmunk-like pattern; prompt is 'North American tree squirrel, Sciurus' - species correct?)",,user,2026-09-25T02:07:22+00:00,2
+flux_squirrel_community_650019,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650020,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650021,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650022,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_squirrel_community_650023,ACCEPT,,,,claude-code-visual,2026-09-25T02:05:46+00:00,2
+flux_bobcat_camera_day_642012,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_day_642013,REJECT,R6,no animal visible; text,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_day_642014,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_day_642015,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_day_642016,REJECT,R2,rendered timestamp/text strip; long tail,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_day_642017,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_day_642018,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_day_642019,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_day_642020,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_day_642021,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_day_642022,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_night_ir_644012,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_night_ir_644013,REJECT,R6,clearly long/ringed tail (user bobcat tail rule); text,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_night_ir_644014,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_night_ir_644015,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_night_ir_644016,REJECT,R2,rendered timestamp/text strip; long tail,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_night_ir_644017,REJECT,R6,clearly long/ringed tail (user bobcat tail rule); text,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_night_ir_644018,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640024,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640025,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640026,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640027,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640028,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640029,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640030,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640031,REJECT,R2,watermark text; also long tail,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640032,REJECT,R1,letterbox black bars; also long tail,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640033,REJECT,R6,"dark animal behind foliage, not recognisable",,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640034,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640035,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640036,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640037,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640038,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_community_640039,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_day_632012,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_day_632013,REJECT,R6,"USER DECISION: user: dog/dingo-like, not clearly a coyote (was NEEDS_USER: daylight OK, but animal looks like a domestic dog/dingo (open mouth) - coyote recognisable?)",,user,2026-09-25T06:46:50+00:00,3
+flux_coyote_camera_day_632014,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_day_632015,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_day_632016,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_day_632017,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_day_632018,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_day_632019,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_day_632020,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_day_632021,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_night_ir_634012,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_night_ir_634013,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_night_ir_634014,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_night_ir_634015,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_camera_night_ir_634016,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_coyote_community_630024,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_day_602012,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_day_602013,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_day_602014,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_day_602015,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_day_602016,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_day_602017,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_day_602018,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_day_602019,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_day_602020,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_day_602021,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_day_602022,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_night_ir_604012,REJECT,R2,rendered timestamp/text strip; animal blurred,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_night_ir_604013,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_camera_night_ir_604014,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_opossum_community_600024,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_rabbit_camera_day_622012,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_rabbit_camera_day_622013,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_rabbit_camera_day_622014,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_rabbit_camera_day_622015,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_rabbit_camera_day_622016,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_rabbit_camera_day_622017,REJECT,R7,flash-lit ground with dark vignette - not clearly daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_rabbit_camera_night_ir_624012,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_rabbit_camera_night_ir_624013,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_rabbit_camera_night_ir_624014,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_raccoon_camera_day_612012,REJECT,R7,flash-lit trail with dark sky - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_raccoon_camera_day_612013,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_raccoon_camera_day_612014,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_raccoon_camera_day_612015,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_raccoon_camera_day_612016,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_raccoon_camera_day_612017,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_raccoon_camera_day_612018,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_raccoon_camera_day_612019,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_raccoon_camera_day_612020,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_raccoon_camera_day_612021,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_raccoon_camera_night_ir_614012,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_raccoon_community_610024,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_skunk_camera_day_662012,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_skunk_camera_day_662013,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_skunk_camera_day_662014,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_skunk_camera_day_662015,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_skunk_camera_day_662016,ACCEPT,,USER DECISION: user: reads as daylight (was NEEDS_USER: flash-lit rocky scene without dark background: daylight or flash?),,user,2026-09-25T06:46:50+00:00,3
+flux_skunk_camera_day_662017,REJECT,R7,monochrome/IR-looking scene,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_skunk_camera_day_662018,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_skunk_camera_day_662019,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_skunk_camera_day_662020,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_skunk_camera_day_662021,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_squirrel_camera_day_652012,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_squirrel_camera_day_652013,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_squirrel_camera_day_652014,REJECT,R7,"USER DECISION: user: flash-lit look, not clearly daylight (was NEEDS_USER: flash-lit leaf litter, no sky visible: daylight or flash?)",,user,2026-09-25T06:46:50+00:00,3
+flux_squirrel_camera_day_652015,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_squirrel_camera_night_ir_654012,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_squirrel_camera_night_ir_654013,REJECT,R6,blurred animal not recognisable,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_squirrel_camera_night_ir_654014,REJECT,R6,no animal visible,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_squirrel_camera_night_ir_654015,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_squirrel_community_650024,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_squirrel_community_650025,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_squirrel_community_650026,ACCEPT,,,,claude-code-visual,2026-09-25T02:59:12+00:00,3
+flux_bobcat_camera_day_642023,REJECT,R2,rendered timestamp/text strip; two merged cats,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_day_642024,REJECT,R6,"domestic orange tabby cat, not a bobcat",,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_day_642025,REJECT,R7,monochrome + text,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_day_642026,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_day_642027,REJECT,R2,rendered timestamp/text strip; long tail,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_day_642028,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_day_642029,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_day_642030,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_day_642031,REJECT,R6,clearly long/ringed tail (user bobcat tail rule); dark scene,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_day_642032,REJECT,R2,rendered timestamp/text strip; long tail,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_night_ir_644019,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_night_ir_644020,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_night_ir_644021,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_night_ir_644022,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_night_ir_644023,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_night_ir_644024,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_night_ir_644025,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_community_640040,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_community_640041,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_community_640042,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_community_640043,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_community_640044,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_community_640045,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_community_640046,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_community_640047,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_community_640048,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_community_640049,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_community_640050,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_community_640051,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_coyote_camera_day_632022,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_coyote_camera_day_632023,ACCEPT,,USER DECISION: user: daylight forest; vignette is a lens effect (was NEEDS_USER: green forest with strong dark vignette: daylight?),,user,2026-09-25T07:10:54+00:00,4
+flux_coyote_camera_day_632024,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_coyote_camera_day_632025,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_coyote_camera_day_632026,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_coyote_camera_day_632027,ACCEPT,,"USER DECISION: user: overcast daylight (was NEEDS_USER: dim green scene, flash-lit coyote, no sky: daylight?)",,user,2026-09-25T07:10:54+00:00,4
+flux_coyote_camera_day_632028,REJECT,R8,cropped animal ears in foreground; dusk scene,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_coyote_camera_day_632029,REJECT,R7,monochrome + text,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_coyote_camera_night_ir_634017,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_opossum_camera_day_602023,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_opossum_camera_day_602024,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_opossum_camera_day_602025,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_opossum_camera_day_602026,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_opossum_camera_day_602027,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_opossum_camera_day_602028,REJECT,R7,flash-lit night scene (dark background) - not daylight; black object in foreground,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_opossum_camera_day_602029,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_opossum_camera_day_602030,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_opossum_camera_night_ir_604015,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_opossum_camera_night_ir_604016,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_rabbit_camera_day_622018,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_rabbit_camera_day_622019,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_rabbit_camera_day_622020,REJECT,R7,monochrome/IR-looking,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_rabbit_camera_day_622021,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_raccoon_camera_day_612022,REJECT,R2,rendered timestamp/text strip; night,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_raccoon_camera_day_612023,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_raccoon_camera_day_612024,REJECT,R7,"USER DECISION: user: not clearly daylight (was NEEDS_USER: flash-lit dry grass, no sky, slightly dark top: daylight or flash?)",,user,2026-09-25T07:10:54+00:00,4
+flux_raccoon_camera_day_612025,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_raccoon_camera_day_612026,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_raccoon_camera_day_612027,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_raccoon_camera_day_612028,REJECT,R7,flash-lit night scene (dark background) - not daylight; two raccoons,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_raccoon_camera_day_612029,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_raccoon_camera_day_612030,REJECT,R7,flash-lit with dark vignette - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_skunk_camera_day_662022,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_skunk_camera_day_662023,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_skunk_camera_day_662024,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_skunk_camera_day_662025,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_skunk_camera_day_662026,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_squirrel_camera_day_652016,ACCEPT,,,,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_squirrel_camera_night_ir_654016,REJECT,R6,"dark animal behind foliage, not recognisable",,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_squirrel_camera_night_ir_654017,REJECT,R6,"tiny blob, not recognisable",,claude-code-visual,2026-09-25T06:58:05+00:00,4
+flux_bobcat_camera_day_642033,REJECT,R6,"USER DECISION: user: clearly long tail (was NEEDS_USER: daylight, seen from behind: tail looks long (hanging to ground) - clearly long?)",,user,2026-09-25T08:30:10+00:00,5
+flux_bobcat_camera_day_642034,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_camera_day_642035,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_camera_day_642036,REJECT,R2,rendered timestamp/text strip; long tail,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_camera_day_642037,REJECT,R6,"USER DECISION: user: looks like a domestic cat (was NEEDS_USER: daylight, small cat with short dark-tipped tail - recognisable as bobcat (vs domestic cat)?)",,user,2026-09-25T08:30:10+00:00,5
+flux_bobcat_camera_day_642038,REJECT,R6,clearly long/ringed tail (user bobcat tail rule); flash-lit,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_camera_day_642039,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_camera_day_642040,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_camera_day_642041,REJECT,R7,flash-lit night scene (dark background) - not daylight; long tail,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_camera_day_642042,REJECT,R6,"USER DECISION: user: clearly long tail (was NEEDS_USER: daylight, from behind: ringed tail of medium length - clearly long?)",,user,2026-09-25T08:30:10+00:00,5
+flux_bobcat_camera_night_ir_644026,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_camera_night_ir_644027,REJECT,R2,rendered timestamp/text strip; long tail,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_camera_night_ir_644028,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_camera_night_ir_644029,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_camera_night_ir_644030,REJECT,R6,"small cat from behind, not diagnosable as bobcat",,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_community_640052,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_community_640053,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_community_640054,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_community_640055,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_community_640056,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_community_640057,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_coyote_camera_day_632030,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_coyote_camera_day_632031,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_coyote_camera_day_632032,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_coyote_camera_day_632033,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_coyote_camera_day_632034,REJECT,R2,watermark text,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_opossum_camera_day_602031,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_opossum_camera_day_602032,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_opossum_camera_day_602033,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_opossum_camera_day_602034,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_opossum_camera_day_602035,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_opossum_camera_day_602036,REJECT,R7,flash-lit with dark vignette,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_opossum_camera_day_602037,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_opossum_camera_day_602038,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_rabbit_camera_day_622022,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_rabbit_camera_day_622023,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_raccoon_camera_day_612031,REJECT,R7,flash-lit with dark vignette,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_raccoon_camera_day_612032,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_raccoon_camera_day_612033,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_raccoon_camera_day_612034,REJECT,R7,flash-lit leaf litter with dark vignette,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_skunk_camera_day_662027,REJECT,R2,rendered timestamp/text strip; flash-lit,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_skunk_camera_day_662028,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_skunk_camera_day_662029,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_skunk_camera_day_662030,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_skunk_camera_day_662031,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_squirrel_camera_day_652017,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_squirrel_camera_night_ir_654018,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_squirrel_camera_night_ir_654019,ACCEPT,,,,claude-code-visual,2026-09-25T07:22:24+00:00,5
+flux_bobcat_camera_day_642043,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_camera_day_642044,REJECT,R7,monochrome/IR-looking scene,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_camera_day_642045,REJECT,R2,rendered timestamp/text strip; long tail,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_camera_day_642046,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_camera_day_642047,ACCEPT,,,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_camera_day_642048,REJECT,R6,"clearly long/ringed tail (user bobcat tail rule) (seen from behind, as in user decision on 642033)",,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_camera_night_ir_644031,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_camera_night_ir_644032,ACCEPT,,,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_camera_night_ir_644033,ACCEPT,,,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_camera_night_ir_644034,REJECT,R2,rendered timestamp/text strip; long tail,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_community_640058,ACCEPT,,,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_community_640059,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_community_640060,ACCEPT,,,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_community_640061,ACCEPT,,,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_coyote_camera_day_632035,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_coyote_camera_day_632036,REJECT,R5,two coyotes merged + text (R2),,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_coyote_camera_day_632037,ACCEPT,,,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_opossum_camera_day_602039,ACCEPT,,,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_opossum_camera_day_602040,REJECT,R2,rendered timestamp/text strip; night,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_opossum_camera_day_602041,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_opossum_camera_day_602042,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_opossum_camera_day_602043,REJECT,R7,green night-vision look + text,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_opossum_camera_day_602044,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_raccoon_camera_day_612035,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_raccoon_camera_day_612036,REJECT,R2,rendered timestamp/text strip; night,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_raccoon_camera_day_612037,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_raccoon_camera_day_612038,REJECT,R2,rendered timestamp/text strip; night,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_raccoon_camera_day_612039,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_skunk_camera_day_662032,ACCEPT,,,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_skunk_camera_day_662033,REJECT,R2,rendered timestamp/text strip; flash-lit,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_skunk_camera_day_662034,ACCEPT,,,,claude-code-visual,2026-09-25T08:33:46+00:00,6
+flux_bobcat_camera_day_642049,REJECT,R7,monochrome/IR-looking scene,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_bobcat_camera_day_642050,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_bobcat_camera_day_642051,ACCEPT,,"USER DECISION: user: short bobbed tail, recognisable bobcat in daylight (was NEEDS_USER: daylight, seen from behind: tail short with black tip, or long? bobcat acceptable?)",,user,2026-09-25T12:27:26+00:00,7
+flux_bobcat_camera_day_642052,REJECT,R6,no animal visible,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_bobcat_camera_day_642053,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_bobcat_camera_day_642054,REJECT,R7,monochrome + text,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_bobcat_camera_day_642055,REJECT,R7,"dim/dusk flash-lit scene, not clearly daylight",,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_bobcat_camera_day_642056,REJECT,R2,rendered timestamp/text strip; long tail,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_bobcat_camera_night_ir_644035,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_bobcat_camera_night_ir_644036,REJECT,R2,rendered timestamp/text strip; long tail,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_bobcat_community_640062,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_coyote_camera_day_632038,ACCEPT,,USER DECISION: user: recognisable coyote (was NEEDS_USER: daylight sagebrush; coyote with open mouth - coyote or dog-like (cf. user reject of 632013)?),,user,2026-09-25T12:27:26+00:00,7
+flux_coyote_camera_day_632039,REJECT,R7,monochrome + text,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_opossum_camera_day_602045,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_opossum_camera_day_602046,REJECT,R7,"flash-lit grass, not clearly daylight",,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_opossum_camera_day_602047,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_opossum_camera_day_602048,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_opossum_camera_day_602049,REJECT,R2,rendered timestamp/text strip; night,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_raccoon_camera_day_612040,REJECT,R7,flash-lit dry grass (as user decision on 612024),,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_raccoon_camera_day_612041,ACCEPT,,"USER DECISION: user: reads as daylight (was NEEDS_USER: evenly lit rocks, no sky, no dark background: daylight? (cf. user accept of 662016))",,user,2026-09-25T12:27:26+00:00,7
+flux_raccoon_camera_day_612042,ACCEPT,,,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_raccoon_camera_day_612043,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_raccoon_camera_day_612044,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_skunk_camera_day_662035,REJECT,R7,flash-lit under dusk sky (user rule),,claude-code-visual,2026-09-25T12:25:56+00:00,7
+flux_bobcat_camera_day_642057,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_bobcat_camera_day_642058,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_bobcat_camera_day_642059,REJECT,R6,clearly long/ringed tail (user bobcat tail rule); two bobcats overlapping,,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_bobcat_camera_night_ir_644037,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_bobcat_camera_night_ir_644038,REJECT,R1,USER DECISION: user: blank black strip counts as border (was NEEDS_USER: thin blank black strip along bottom edge (no text) - border R1? tail short; otherwise OK),,user,2026-09-25T14:30:34+00:00,8
+flux_bobcat_community_640063,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_coyote_camera_day_632040,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_opossum_camera_day_602050,ACCEPT,,,,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_opossum_camera_day_602051,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_opossum_camera_day_602052,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_opossum_camera_day_602053,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_opossum_camera_day_602054,REJECT,R7,flash-lit with dark vignette - not clearly daylight,,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_raccoon_camera_day_612045,REJECT,R6,"USER DECISION: user: raccoon not recognisable from behind (was NEEDS_USER: daylight; animal seen from behind, no mask or ringed tail visible - raccoon recognisable?)",,user,2026-09-25T14:30:34+00:00,8
+flux_raccoon_camera_day_612046,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_raccoon_camera_day_612047,REJECT,R7,monochrome/IR-looking,,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_skunk_camera_day_662036,REJECT,R7,flash-lit night scene (dark background) - not daylight; text,,claude-code-visual,2026-09-25T14:24:10+00:00,8
+flux_bobcat_camera_night_ir_644039,ACCEPT,,,,claude-code-visual,2026-09-25T14:42:29+00:00,9
+flux_bobcat_camera_night_ir_644040,REJECT,R6,"clearly long/ringed tail (user bobcat tail rule) (seen from behind, as user decision on 642033)",,claude-code-visual,2026-09-25T14:42:29+00:00,9
+flux_bobcat_community_640064,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T14:42:29+00:00,9
+flux_coyote_camera_day_632041,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T14:42:29+00:00,9
+flux_opossum_camera_day_602055,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T14:42:29+00:00,9
+flux_opossum_camera_day_602056,ACCEPT,,,,claude-code-visual,2026-09-25T14:42:29+00:00,9
+flux_opossum_camera_day_602057,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T14:42:29+00:00,9
+flux_opossum_camera_day_602058,REJECT,R2,rendered timestamp/text strip; night,,claude-code-visual,2026-09-25T14:42:29+00:00,9
+flux_raccoon_camera_day_612048,ACCEPT,,,,claude-code-visual,2026-09-25T14:42:29+00:00,9
+flux_raccoon_camera_day_612049,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T14:42:29+00:00,9
+flux_raccoon_camera_day_612050,REJECT,R2,rendered timestamp/text strip,,claude-code-visual,2026-09-25T14:42:29+00:00,9
+flux_skunk_camera_day_662037,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T14:42:29+00:00,9
+flux_bobcat_camera_night_ir_644041,ACCEPT,,,,claude-code-visual,2026-09-25T14:54:50+00:00,10
+flux_bobcat_community_640065,REJECT,R6,clearly long/ringed tail (user bobcat tail rule),,claude-code-visual,2026-09-25T14:54:50+00:00,10
+flux_coyote_camera_day_632042,ACCEPT,,,,claude-code-visual,2026-09-25T14:54:50+00:00,10
+flux_opossum_camera_day_602059,REJECT,R7,flash-lit night scene (dark background) - not daylight,,claude-code-visual,2026-09-25T14:54:50+00:00,10
+flux_raccoon_camera_day_612051,ACCEPT,,,,claude-code-visual,2026-09-25T14:54:50+00:00,10
+flux_raccoon_camera_day_612052,REJECT,R7,flash-lit night scene with dark vignette - not daylight,,claude-code-visual,2026-09-25T14:54:50+00:00,10
+flux_skunk_camera_day_662038,ACCEPT,,,,claude-code-visual,2026-09-25T14:54:50+00:00,10
+flux_raccoon_camera_day_612053,REJECT,R7,flash-lit with black background behind foliage - not clearly daylight,,claude-code-visual,2026-09-25T15:00:35+00:00,11
+flux_bobcat_community_640066,ACCEPT,,,,claude-code-visual,2026-09-25T15:00:35+00:00,11
+flux_raccoon_camera_day_612054,ACCEPT,,,,claude-code-visual,2026-09-25T15:07:24+00:00,12

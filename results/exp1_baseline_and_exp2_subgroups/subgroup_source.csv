@@ -1,0 +1,3 @@
+group,n,accuracy,note
+Caltech,158,1.0,single-class (real)
+iNaturalist,176,0.8977272727272727,single-class (real)

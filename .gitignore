@@ -1,0 +1,33 @@
+# Secrets and credentials (never commit)
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+token*.json
+*secret*
+
+# Model weights and checkpoints (external or not redistributable)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# Image collections (stored on the project Google Drive, not in Git)
+/data/
+/images/
+/final/
+/raw/
+/exp4_heldout_generator/
+
+# Python / notebooks / OS
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+*.zip

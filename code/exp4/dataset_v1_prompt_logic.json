@@ -1,0 +1,59 @@
+{
+ "ANIMAL_NAMES": {
+  "opossum": "Virginia opossum, Didelphis virginiana",
+  "raccoon": "common raccoon, Procyon lotor",
+  "rabbit": "cottontail rabbit, Sylvilagus",
+  "coyote": "North American coyote, Canis latrans",
+  "bobcat": "North American bobcat, Lynx rufus, short tail",
+  "squirrel": "North American tree squirrel, Sciurus",
+  "skunk": "striped skunk, Mephitis mephitis"
+ },
+ "STYLE_TEMPLATES": {
+  "community": "Realistic wildlife observation photo of {animal}, {pose}, in {habitat}, {lighting}, at {distance}. Consumer camera, natural colours, realistic anatomy, slightly imperfect framing and natural background clutter.",
+  "camera_day": "Daytime trail-camera photo of {animal}, {pose}, in {habitat}. Fixed wide-angle camera, animal at {distance}, deep depth of field, visible vegetation, flat daylight, minor sensor noise and imperfect framing.",
+  "camera_night_ir": "Night infrared trail-camera photo of {animal}, {pose}, in {habitat}. Monochrome grayscale, fixed wide-angle camera, animal at {distance}, deep depth of field, infrared lighting, visible vegetation, sensor noise and slight motion blur."
+ },
+ "HABITATS": [
+  "woodland",
+  "forest edge",
+  "dry grassland",
+  "dense shrubs",
+  "open scrubland",
+  "rocky natural terrain",
+  "mixed forest",
+  "leaf-covered woodland floor",
+  "natural trail through vegetation"
+ ],
+ "POSES": [
+  "walking naturally",
+  "standing alert",
+  "foraging",
+  "moving across the scene",
+  "looking sideways",
+  "walking away from the camera",
+  "partially obscured by vegetation",
+  "crossing a natural trail"
+ ],
+ "DISTANCES": [
+  "medium distance from the camera",
+  "moderate distance from the camera",
+  "farther from the camera",
+  "several metres from the camera"
+ ],
+ "COMMUNITY_LIGHTING": [
+  "soft daylight",
+  "overcast daylight",
+  "early morning light",
+  "late afternoon light",
+  "natural shaded light"
+ ],
+ "NEGATIVE_PROMPT_FINAL": "cartoon, painting, illustration, CGI, fantasy, studio portrait, cinematic lighting, extreme bokeh, text, watermark, logo, border, picture frame, extra legs, extra heads, extra tails, duplicate animal, malformed anatomy",
+ "STYLE_TARGETS": {
+  "community": 165,
+  "camera_day": 85,
+  "camera_night_ir": 85
+ },
+ "BASE_SEED": 500000,
+ "_source": "MyDrive/Colab Notebooks/01_Dataset_Preparation.ipynb, code cell index 212 (final Dataset v1 SDXL generation settings). Verified 2026-09-25: reproduces 2,115/2,345 Dataset v1 SDXL prompts exactly (the other 230 came from a later prompt-cleanup regeneration).",
+ "_notebook_sha256": "6ad563b8851593205f6172fc4c12810b0403530d644a67904691daa917157bcd"
+}

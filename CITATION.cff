@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you refer to this work, please cite the HIT401 final report."
+title: "Detecting AI-Generated Wildlife Images: Evaluating Generalisation and Domain Adaptation of AI-Generated Image Detectors in Ecological Wildlife Imagery"
+type: software
+authors:
+  - family-names: Luitel
+    given-names: Ashesh
+  - family-names: Arpi
+    given-names: Mahezabeen Momtarin
+  - family-names: Borja
+    given-names: Christian Jay Guarino
+  - family-names: Seam
+    given-names: Shahriar Khandakar
+date-released: 2026-10-18
+repository-code: "https://github.com/Aseshlfc/hit401-wildlife-aigi-detection"
+abstract: "Code, manifests and frozen results of a HIT401 capstone project (Charles Darwin University, Group 24) that evaluated OmniAID v2 on camera-trap, citizen-science and SDXL wildlife images, adapted it with parameter-efficient fine-tuning, and tested both detectors on FLUX.1-schnell images held out from project adaptation."
+keywords:
+  - AI-generated image detection
+  - wildlife imagery
+  - camera traps
+  - citizen science
+preferred-citation:
+  type: report
+  title: "Detecting AI-Generated Wildlife Images: Evaluating Generalisation and Domain Adaptation of AI-Generated Image Detectors in Ecological Wildlife Imagery"
+  authors:
+    - family-names: Luitel
+      given-names: Ashesh
+    - family-names: Arpi
+      given-names: Mahezabeen Momtarin
+    - family-names: Borja
+      given-names: Christian Jay Guarino
+    - family-names: Seam
+      given-names: Shahriar Khandakar
+  institution:
+    name: "Charles Darwin University"
+  year: 2026
+  notes: "HIT401 Capstone Project final report, Group 24. Supervisor: Charles Yeo."

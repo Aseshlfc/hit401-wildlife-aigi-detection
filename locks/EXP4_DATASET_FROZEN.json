@@ -1,0 +1,42 @@
+{
+ "frozen_utc": "2026-09-25T15:14:21+00:00",
+ "n_images": 326,
+ "per_style": {
+  "camera_day": 74,
+  "camera_night_ir": 84,
+  "community": 168
+ },
+ "per_species": {
+  "bobcat": 41,
+  "coyote": 48,
+  "opossum": 45,
+  "rabbit": 48,
+  "raccoon": 48,
+  "skunk": 48,
+  "squirrel": 48
+ },
+ "generated_total": 653,
+ "rejected_total": 327,
+ "frozen_manifest_sha256": "4e14767eef195f8781fba4ddfeced0a1c797469786eb67144159890081934199",
+ "qc_decisions_sha256": "a6a701e68b264e6d1f9403f6f66dce893dc7c2a44296f782d3ec4e7d8e81b0b6",
+ "generation_manifest_sha256": "482a51423296445cd2958e87f2342ea2c10a7702cca7bbde1790eaf5a9cacdaa",
+ "generator": "black-forest-labs/FLUX.1-schnell",
+ "generator_revision": "741f7c3ce8b383c54771c7003378a50191e9efe9",
+ "planned_n": 336,
+ "capped_cells": {
+  "opossum/camera_day": {
+   "accepted": 9,
+   "quota": 12,
+   "attempts": 60,
+   "cap": 60
+  },
+  "bobcat/camera_day": {
+   "accepted": 5,
+   "quota": 12,
+   "attempts": 60,
+   "cap": 60
+  }
+ },
+ "cap_rule": "5 x quota attempts per species x style cell (user-set before replacements); user decision 2026-09-26: freeze at 326 with capped cells as-is",
+ "note": "Frozen before any detector saw these images. No image may be replaced/removed based on detector results."
+}

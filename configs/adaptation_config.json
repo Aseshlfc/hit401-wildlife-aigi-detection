@@ -1,0 +1,109 @@
+{
+  "experiment": "Experiment 3: parameter-efficient fine-tuning of OmniAID v2's low-rank experts",
+  "method": "official OmniAID main_finetune.py route (--model OmniAID --pretrained_checkpoint, training_mode=standard); official create_model_and_ema, create_optimizer_criterion_scaler, create_dataloaders and engine_finetune.train_one_epoch. Project wrapper replaces only the outer epoch loop: validation-only scoring each epoch, and saving of adapted parameters instead of full 3 GB checkpoints.",
+  "omniaid_commit": "40749406fbcd8893c11a160edf4a72a2d4dc7056",
+  "base_checkpoint": "Yunncheng/OmniAID@279cae7398ac6636f46fc4668f755f11210b36bf:ckpt/checkpoint_omniaid_v2.pth",
+  "base_checkpoint_sha256": "919338928cab88cef1e6e4b85777749c74bdff6a1796fcd7e43a91422327f906",
+  "architecture_verified_from_checkpoint_args": {
+    "CLIP_path": "openai/clip-vit-large-patch14-336",
+    "num_experts": 6,
+    "rank_per_expert": 1,
+    "moe_top_k": 2,
+    "moe_router_hidden_dim": 256,
+    "dropout": 0.1,
+    "moe_lambda_orth": 0.001,
+    "moe_lambda_balance": 0.001,
+    "moe_lambda_gating_cls": 0.1,
+    "gradient_checkpointing_enable": false
+  },
+  "training": {
+    "seed": 0,
+    "epochs": 5,
+    "batch_size": 4,
+    "update_freq": 8,
+    "blr": 0.0002,
+    "opt": "adamw",
+    "weight_decay": 0.0,
+    "min_lr": 1e-06,
+    "warmup_epochs": 0,
+    "smoothing": 0.1,
+    "use_amp": true,
+    "img_size": 336,
+    "num_workers": 2,
+    "training_mode": "standard",
+    "effective_batch": 32,
+    "lr": 2.5e-05,
+    "optimizer_steps_per_epoch": 103,
+    "scheduler": "official half-cycle cosine per iteration (utils.adjust_learning_rate), no warmup",
+    "loss": "official get_losses: label-smoothed CE (0.1) + 0.001*orthogonality + 0.001*router balance (+ gating CE, inactive)",
+    "sampler": "official DistributedSampler(shuffle=True, seed=0); set_epoch(epoch) called each epoch as in the official multi-GPU run",
+    "drop_last": true
+  },
+  "value_sources": {
+    "Verified-v2": "read from args stored inside the official v2 checkpoint",
+    "PROJECT": [
+      "epochs=5",
+      "batch_size=4 (batch 8 ran out of T4 memory in the Stage 10 probe)",
+      "update_freq=8 (effective batch 32, unchanged)",
+      "use_amp=True",
+      "num_workers=2"
+    ]
+  },
+  "parameters": {
+    "trainable": 1445959,
+    "total": 507797575,
+    "percent_trainable": 0.2847510644374385,
+    "frozen_buffers": 301794530,
+    "by_group": {
+      "frozen routing CLIP copy": {
+        "trainable": 0,
+        "frozen": 303507456
+      },
+      "embeddings": {
+        "trainable": 0,
+        "frozen": 1193984
+      },
+      "LayerNorms": {
+        "trainable": 0,
+        "frozen": 102400
+      },
+      "attention biases": {
+        "trainable": 0,
+        "frozen": 98304
+      },
+      "low-rank experts (U/S/V)": {
+        "trainable": 1180224,
+        "frozen": 0
+      },
+      "MLPs": {
+        "trainable": 0,
+        "frozen": 201449472
+      },
+      "router (gating network)": {
+        "trainable": 263685,
+        "frozen": 0
+      },
+      "real/fake output layer (head)": {
+        "trainable": 2050,
+        "frozen": 0
+      }
+    }
+  },
+  "trainable_modules": [
+    "low-rank experts (U/S/V)",
+    "real/fake output layer (head)",
+    "router (gating network)"
+  ],
+  "frozen_modules": [
+    "LayerNorms",
+    "MLPs",
+    "attention biases",
+    "embeddings",
+    "frozen routing CLIP copy",
+    "buffers: main attention weights, SVD bases"
+  ],
+  "preprocessing": "Resize(336,336) + ToTensor + CLIP mean/std (official v2 single-resize pipeline; identical to baseline); no augmentation",
+  "checkpoint_selection_rule": "VALIDATION only: highest balanced accuracy at each epoch's own Youden threshold; if |difference| < 0.001 prefer higher validation fake recall; if still tied, earlier epoch",
+  "threshold_selection_rule": "Youden's J on VALIDATION scores of the selected (reloaded) model; frozen before TEST",
+  "test_policy": "TEST never copied locally, never used for any decision; evaluated once after freezing"
+}
