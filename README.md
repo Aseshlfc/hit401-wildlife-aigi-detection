@@ -177,13 +177,13 @@ QC cases, the interpretation of the results and the conclusions were decided and
 from executing the project code; the per-image outputs are in `results/`.
 
 AI tools were used to assist the group, as declared in Appendix B of the final report. Claude (Anthropic), used through
-Claude Code, helped with writing and debugging code and notebooks, running Colab sessions, checking and summarising
-outputs, checking references, and drafting documentation and report text that the group then reviewed. It also made the
+Claude Code, helped with writing and debugging code and notebooks, managing Colab sessions, checking and summarising
+outputs, checking references, and drafting documentation that I reviewed. It also made the
 first-pass visual QC decisions on the FLUX images by applying the group's written rules R1–R8 (606 of 653 decisions,
 logged with the reviewer `claude-code-visual` in `manifests/exp4_flux/qc_decisions.csv`); the 47 ambiguous cases were
 decided by a team member (`qc_user_resolutions.csv`). No detector was used during QC, and no threshold, epoch or model
 was chosen by an AI tool on test data. This README and the files in `docs/` were also prepared with AI assistance from
-the project records and reviewed by the group.
+the project records and reviewed by me.
 
 ## Licensing
 
